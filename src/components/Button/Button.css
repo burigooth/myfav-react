@@ -1,0 +1,16 @@
+.button{
+    background-color: #2CB67D;
+    color: #F8F8FF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    margin: 32px 0;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    color: #95FFD4;
+}
