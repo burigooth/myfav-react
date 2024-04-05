@@ -2,9 +2,15 @@ import './Form.css';
 import Input from '../Input';
 import Dropdown from '../Dropdown';
 import Button from '../Button';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Form = (props) => {
+
+    useEffect(() => {
+        AOS.init();
+      }, []);
 
     const [name, setName] = useState('');
     const [genre, setGenres] = useState('');
@@ -27,7 +33,7 @@ const Form = (props) => {
     }
 
     return(
-        <section className='form'>
+        <section className='form' data-aos="fade-right" data-aos-duration="2500">
             <h2> Preencha os dados abaixo. </h2>
             <form onSubmit={whenSave}>
             <Input
