@@ -13,3 +13,6 @@ O projeto consiste na criação de uma lista de filmes, séries, animes ou jogos
 <br>
 Teste o projeto clicando [aqui](https://myfav-react.vercel.app)
 
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
