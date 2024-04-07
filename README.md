@@ -15,4 +15,4 @@ Teste o projeto clicando [aqui](https://myfav-react.vercel.app)
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
