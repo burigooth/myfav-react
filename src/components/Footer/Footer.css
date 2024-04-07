@@ -1,0 +1,27 @@
+.footer{
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: #F8F8FF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a{
+    color: #2CB67D;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #52ecac;
+    cursor: pointer;
+}
+
